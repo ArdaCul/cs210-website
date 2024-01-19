@@ -6,6 +6,10 @@ Diving into my musical journey with data! 🎵 Investigating seasonal patterns i
 
 This project explores the seasonal patterns in my Spotify listening history. The analysis includes insights into daily song counts, most-listened genres per season, and top 10 artists for each season. The project also features an interactive website that visually presents the findings with interactive charts and a unique music playback experience.
 
+## Deployment
+
+Please find the website deployed at the following url: cs210-website.vercel.app
+
 ## Project Structure
 
 The project is divided into several components:
