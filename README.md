@@ -8,7 +8,7 @@ This project explores the seasonal patterns in my Spotify listening history. The
 
 ## Deployment
 
-Please find the website deployed at the following url: cs210-website.vercel.app
+Please find the website deployed at the following url: [cs210-website.vercel.app](https://cs210-website.vercel.app/)
 
 ## Project Structure
 
