@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Musical Journey Analysis
+
+Diving into my musical journey with data! 🎵 Investigating seasonal patterns in my Spotify plays to discover how my music taste evolves with the seasons. Are there melodies that harmonize with the weather? Let the data tell the tale! 🍂❄️🌷🌞 #DataScience #MusicAnalysis
+
+## Overview
+
+This project explores the seasonal patterns in my Spotify listening history. The analysis includes insights into daily song counts, most-listened genres per season, and top 10 artists for each season. The project also features an interactive website that visually presents the findings with interactive charts and a unique music playback experience.
+
+## Project Structure
+
+The project is divided into several components:
+
+1. **Data Collection and Analysis:**
+   - Streaming history data from Spotify was collected and analyzed using Python.
+   - Seasonal patterns, daily counts, and top genres and artists were extracted from the data.
+
+2. **Interactive Website:**
+   - The project includes an interactive NextJS 14 website showcasing the analysis results.
+   - Notable features include:
+     - **Daily Song Counts Line Chart:** Interactive chart displaying the daily song counts with mouse-over information.
+     - **Most-Listened Genres Bar Chart:** Interactive bar chart showcasing the most-listened genres per season.
+     - **Top 10 Listened Artists with Music Playback:** Interactive boxes displaying the top 10 listened artists for each season. Users can play and pause songs directly from the website.
 
 ## Getting Started
 
-First, run the development server:
+To run the analysis and explore the interactive website locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the Repository:**
+   ```bash
+   git clone [repository_url]
+   cd cs210-website
+   npm install
+   npm run dev
