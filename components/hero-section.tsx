@@ -34,7 +34,10 @@ export default function HeroSection() {
       <div className={styles.body}>
         <p>
           This is <span>Arda Culhaci</span>&apos;s submission for CS210 project.
-          Scroll down and enjoy 😊
+          Scroll down and enjoy 😊{" "}
+          <span className="text-[18px] !text-[#afa18f]">
+            (please hover over me for a secret message)
+          </span>
         </p>
       </div>
     </main>
