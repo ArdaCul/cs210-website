@@ -37,7 +37,7 @@ export default function Home() {
           concluded that the season does not affect my music taste throughout
           the year.
         </Callout>
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-4">
           <DonutChartComponent season="Fall" />
           <DonutChartComponent season="Winter" />
           <DonutChartComponent season="Spring" />
