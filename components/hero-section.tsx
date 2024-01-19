@@ -33,7 +33,7 @@ export default function HeroSection() {
 
       <div className={styles.body}>
         <p>
-          This is <span>Arda Culhaci</span>'s submission for CS210 project.
+          This is <span>Arda Culhaci</span>&apos;s submission for CS210 project.
           Scroll down and enjoy 😊
         </p>
       </div>

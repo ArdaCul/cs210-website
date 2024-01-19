@@ -31,10 +31,11 @@ export default function Home() {
           color="teal"
         >
           The above graph shows that my most-listened-to genre each season is
-          always "Album Rock". However, second place is held by "Alternative
-          Rock" in Winter and Summer, whereas it is held by "Australian Rock" in
-          Fall and Spring. Hence, it can be concluded that the season does not
-          affect my music taste throughout the year.
+          always &quot;Album Rock&quot;. However, second place is held by
+          &quot;Alternative Rock&quot; in Winter and Summer, whereas it is held
+          by &quot;Australian Rock&quot; in Fall and Spring. Hence, it can be
+          concluded that the season does not affect my music taste throughout
+          the year.
         </Callout>
         <div className="grid grid-cols-4 gap-10">
           <DonutChartComponent season="Fall" />
